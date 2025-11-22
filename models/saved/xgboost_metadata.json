@@ -1,0 +1,33 @@
+{
+  "feature_names": [
+    "zipCode",
+    "latitude",
+    "longitude",
+    "propertyType",
+    "bedrooms",
+    "bathrooms",
+    "squareFootage",
+    "lotSize",
+    "yearBuilt",
+    "ownerOccupied",
+    "has_cooling",
+    "has_garage",
+    "has_pool",
+    "unit_count",
+    "floor_count",
+    "exterior_type",
+    "roof_type",
+    "property_age",
+    "lot_to_building_ratio",
+    "bed_bath_ratio"
+  ],
+  "metrics": {
+    "MAE": 83996.9252743238,
+    "RMSE": 121516.73391377738,
+    "R\u00b2": 0.6076679574314583,
+    "MAPE": 49.62141045120197
+  },
+  "model_type": "XGBRegressor",
+  "n_features": 20,
+  "best_iteration": 69
+}
